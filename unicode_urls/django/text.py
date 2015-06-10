@@ -15,6 +15,6 @@ def slugify(value):
     :returns: Slugified value.
     :rtype: str
     """
-    value = unicodedata.normalize('NFKD', value)
+    value = unicodedata.normalize('NFKC', value)
     value = unicode(re.sub('(?u)[^\w\s-]+', '', value).strip().lower())
     return mark_safe(re.sub('[-\s]+', '-', value).strip('-'))
