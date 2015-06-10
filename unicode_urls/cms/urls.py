@@ -6,7 +6,7 @@ from cms.appresolver import get_app_patterns
 from cms.views import details
 
 # This is a constant, really, but must live here due to import order
-SLUG_REGEXP = '[\w.-//]+'
+SLUG_REGEXP = '[-\w.//]+'
 
 if settings.APPEND_SLASH:
     regexp = r'^(?P<slug>%s)/$' % SLUG_REGEXP
