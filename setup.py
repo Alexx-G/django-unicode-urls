@@ -5,7 +5,7 @@ Unicode URLS in django."""
 
 setup(
     name='unicode_urls',
-    packages=['unicode_urls'],
+    packages=['unicode_urls', 'unicode_urls.django', 'unicode_urls.cms'],
     version='0.0.1',
     long_description=LONG_DESC,
     description='Unicode urls.',
