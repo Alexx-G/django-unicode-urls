@@ -7,8 +7,8 @@ def slugify(value):
     Unicode version of standart slugify.
     Converts spaces to hyphens. Removes characters that
     aren't unicode letters, underscores, or hyphens. Converts to lowercase.
-    Also replaces whitespace with huphen and
-    strips leading and trailing whitespace.
+    Also replaces whitespace with hyphens and
+    strips leading and trailing hyphens.
     :param value: String to slugify.
     :type value: str
     :returns: Slugified value.
