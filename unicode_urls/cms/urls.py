@@ -9,9 +9,9 @@ from cms.views import details
 SLUG_REGEXP = '[\w.//]+'
 
 if settings.APPEND_SLASH:
-    regexp = r'(?u)^(?P<slug>%s)/$' % SLUG_REGEXP
+    regexp = r'^(?P<slug>%s)/$' % SLUG_REGEXP
 else:
-    regexp = r'(?u)^(?P<slug>%s)$' % SLUG_REGEXP
+    regexp = r'^(?P<slug>%s)$' % SLUG_REGEXP
 
 if apphook_pool.get_apphooks():
     # If there are some application urls, use special resolver,
