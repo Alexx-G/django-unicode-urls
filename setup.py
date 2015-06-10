@@ -24,5 +24,6 @@ setup(
         'License :: OSI Approved :: MIT License',
         ],
     install_requires=[
+        'django>=1.7',
     ]
     )
