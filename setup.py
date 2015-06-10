@@ -10,7 +10,7 @@ setup(
     long_description=LONG_DESC,
     description='Unicode urls.',
     author='Alex Gavrisco',
-    author_email='a.gavrisco@dekart.com',
+    author_email='alexandr@gavrisco.com',
     url='',
     download_url='',
     keywords=['django', 'urls', 'unicode', 'cms', 'djangocms', 'django-cms'],
